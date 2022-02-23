@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style-type: none;
+}
+header{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px 20px;
+    border-bottom: 1px solid lightgray;
+    margin: 0 40px;
+    color: #65735B;
+    font-size: 16px;
+}
+.headerlogo{
+    cursor: pointer;
+}
+.navlinks ul{
+    display: flex;
+}
+.navlinks ul li{
+    margin: 0 20px;
+    cursor: pointer;
+}
+.navlinks ul li:hover{
+    color: #14A800;
+}
+.headerbtn{
+    display: flex;
+    align-items: center;
+}
+.searchbtn{
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+.searchbtn i{
+    cursor: pointer;
+}
+#search{
+    margin: 5px;
+}
+.searchbtn input{
+    outline: none   ;
+    border: none;
+    margin: 5px;
+    width: 250px;
+    font-size: 16px;
+}
+.loginbtn input{
+    background-color: transparent;
+    width: 70px;
+    border: none;   
+    color: #65735B;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.loginbtn input:hover{
+    color: #14A800;
+}
+.signupbtn input{
+    background-color: #14A800;
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+.signupbtn input:hover{
+    background-color: #0e6b02;
+    transition: 0.9s ease;
+}
+
+.navlinks2 ul{
+    display: flex;
+    padding: 30px 0;
+    width: 100%;
+}
+.navlinks2 ul li{
+    margin-left: 40px;
+    color: #65735B;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navlinks2 ul li:hover{
+    color: #14A800;
+}
+
+.intro1{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.intro1-content{
+    width: 50%;
+    margin-left: 40px;
+}
+.intro1-content h1{
+    color: #14A800;
+    font-size: 90px;
+}
+.intro1-content h3{
+    color: #65735B;
+    font-size: 30px;
+    margin: 20px 0;
+}
+.btn button{
+    width: 130px;
+    height: 40px;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+#btn1{
+    background-color: #14A800;
+    color: white;
+    border: none;
+    font-size: 15px;
+}#btn1:hover{
+    background-color: #0e6b02;
+}
+#btn2{
+    background-color:transparent;
+    color: #14A800;
+    border-color: #14A800;
+    font-size: 15px;
+    margin-left: 20px;
+}
+#btn2:hover{
+    background-color: #0c0c0c11;
+}
+.intro1-logo{
+    font-size: 18px;
+    margin-top: 70px;
+    color: #65735B;
+}
+.intro1-logo img{
+    margin: 20px 10px;
+    height: 40px;
+}
+.intro1-img{
+    width: 40%;
+    margin-right: 20px;
+    height: auto;
+}
+.intro1-img img{
+    width: 100%;
+}
+
+.intro2{
+    width: 95%;
+    margin: 20px 2.5%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.intro2-box1{
+    background-color: #F2F7F2;
+    width: 68%;
+    padding: 40px 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.intro2-box1 h1{
+    font-size: 80px;
+    margin: 10px 30px;
+}
+.intro2-box1 h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.intro2-box1 p{
+    color: #65735B;
+    text-indent: 40px;
+}
+.intro2-box2{
+    background-color: #14A800;
+    width: 30%;
+    padding-top: 180px;
+    padding-left: 30px ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.intro2-box2 h3{
+    color: white;
+    font-size: 33px;
+    margin-top: 20px;
+}
+.intro2-box2 p{
+    color: white;
+    margin-top: 5px;
+    text-indent: 40px;
+}
+.intro2 img{
+    position: absolute;
+    top: -40px;
+    right: 24%;
+}
+
+.banner1{
+    width: 95%;
+    margin: 20px 2.5%;
+    padding: 30px;
+    background-image: url("https://www.upwork.com/static/assets/Brontes/6b8d404e/img/find-talent.06d34b1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    color: white;
+}
+.banner1 h1{
+    font-size: 70px;
+    margin-top: 70px;
+}
+.banner1 p{
+    font-size: 19px;
+    margin: 20px 0;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.cards div{
+    width: 31%;
+    background-color: #14A800;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cards div:hover{
+    background-color: white;
+    color: #14A800;
+    transition: 0.95s ease;
+}
+.cards div h2{
+    font-size: 25px;
+}
+.cards div p{
+    margin: 20px 0 0 0 !important;
+}
+
+/* -----@media-query----- */
+
+@media only screen and (max-width: 990px){
+    .navlinks{
+        display: none;
+    }
+    .signupbtn input{
+        background-color: transparent;
+        color: #65735B;
+        font-weight: bold;
+    }
+    .searchbtn{
+        display: none;
+    }
+    .navlinks2{
+        display: none;
+    }
+    .intro1-content h1{
+        font-size: 60px;
+    }
+    .intro1-content h3{
+        font-size: 26px;
+    }
+    .intro1-logo{
+        font-size: 16px;
+    }
+    .intro1-logo img{
+        height: 30px;
+        margin: 20px 5px;
+    }
+    .cards div h2{
+        font-size: 20px;
+    }
+    .cards div p{
+        font-size: small;
+    }
+}
+
+
+
+/* -----@media-query----- */
+
+@media only screen and (max-width: 943px){
+    .intro2-box1{
+        width: 56%;
+    }
+    .intro2-box2{
+        width: 43%;
+    }
+    .intro2-box1 h1{
+        font-size: 60px;
+    }
+}
+
+/* -----@media-query----- */
+
+@media only screen and (max-width: 768px){
+    .intro1-img{
+        display: none;
+    }
+    .intro1-content{
+        width: 100%;
+    }
+    .intro2-box1 h1{
+        font-size: 45px;
+    }
+    .intro2-box1 h3{
+        font-size: 25px;
+    }
+    .intro2-box2 h3{
+        font-size: 28px;
+    }
+    .intro2 img{
+        height: 100vh;
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .cards div{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+}
+
+
+
+/* -----@media-query----- */
+
+@media only screen and (max-width: 425px){
+    .intro2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .intro2-box1{
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .intro2-box2{
+        width: 100%;
+        border-radius: 0px;
+        padding: 30px 10px;
+    }
+    .intro2 img{
+        position: absolute;
+        height: 50vh;
+        top: 65%;
+        right: 2%;
+    }
+}
